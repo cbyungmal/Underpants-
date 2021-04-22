@@ -17,12 +17,12 @@ var _ = {};
 */
 _.identity = function(value){
 //CODE BELOW HERE
-
+  return value;
 
 
 
 //CODE ABOVE HERE
-}
+};
 
 /** _.typeOf
 * Arguments:
@@ -46,12 +46,18 @@ _.identity = function(value){
 
 _.typeOf = function (value){
 //CODE BELOW HERE
-
-
+if(value === ){
+} else(Array.isArray){
+  return Array
+}
+} else {
+  return typeof
+}
+    
 
 
 //CODE ABOVE HERE
-}
+
 
 /** _.first
 * Arguments:
@@ -73,7 +79,9 @@ _.typeOf = function (value){
 
 _.first = function(array, number){
 //CODE BELOW HERE
-
+var inputArray = [];
+var outputArray = [];
+if(Array.isArray[array])
 
 
 
